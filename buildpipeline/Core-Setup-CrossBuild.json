@@ -282,7 +282,7 @@
       "allowOverride": true
     },
     "PB_RepoUrl": {
-      "value": "https://github.com/dotnet/core-setup.git",
+      "value": "https://github.com/MichaelSimons/core-setup.git",
       "allowOverride": true
     },
     "SourceVersion": {
@@ -328,18 +328,18 @@
       "connectedServiceId": "f4c31735-42d2-4c3a-bc47-7ac06fd0dccc",
       "apiUrl": "https://api.github.com/repos/dotnet/core-setup",
       "branchesUrl": "https://api.github.com/repos/dotnet/core-setup/branches",
-      "cloneUrl": "https://github.com/dotnet/core-setup.git",
+      "cloneUrl": "https://github.com/MichaelSimons/core-setup.git",
       "refsUrl": "https://api.github.com/repos/dotnet/core-setup/git/refs",
       "gitLfsSupport": "false",
       "skipSyncSource": "false",
       "fetchDepth": "0",
       "cleanOptions": "0"
     },
-    "id": "https://github.com/dotnet/core-setup.git",
+    "id": "https://github.com/MichaelSimons/core-setup.git",
     "type": "GitHub",
     "name": "dotnet/core-setup",
-    "url": "https://github.com/dotnet/core-setup.git",
-    "defaultBranch": "master",
+    "url": "https://github.com/MichaelSimons/core-setup.git",
+    "defaultBranch": "docker-test",
     "clean": "true",
     "checkoutSubmodules": false
   },
