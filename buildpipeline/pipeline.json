@@ -12,7 +12,8 @@
         "TreatWarningsAsErrors": "false"
       },
       "BuildParameters": {
-        "BuildConfiguration": "Release"
+        "BuildConfiguration": "Release",
+        "PUBLISH_TO_AZURE_BLOB": "false"
       },
       "Definitions": [
         {
@@ -80,7 +81,7 @@
             "REPO_ID": "562fbfe0b2d7d0e0a43780c4",
             "REPO_USER": "dotnet",
             "REPO_SERVER": "azure-apt-cat.cloudapp.net",
-            "CLI_NUGET_FEED_URL": "https://dotnet.myget.org/F/cli-deps",
+            "CLI_NUGET_FEED_URL": "https://dotnet.myget.org/F/cli-deps"
           },
           "ReportingParameters": {
             "OperatingSystem": "Ubuntu 14.04",
@@ -117,14 +118,6 @@
           }
         },
         {
-          "Name": "Core-Setup-OSX-x64",
-          "ReportingParameters": {
-            "OperatingSystem": "OSX",
-            "Type": "build/product/",
-            "Platform": "x64"
-          }
-        },
-        {
           "Name": "Core-Setup-PortableLinux-x64",
           "ReportingParameters": {
             "SubType": "PortableLinux",
@@ -140,22 +133,6 @@
             "OperatingSystem": "RedHat 7",
             "Type": "build/product/",
             "Platform": "x64"
-          }
-        },
-        {
-          "Name": "Core-Setup-Signing-Windows-x64",
-          "ReportingParameters": {
-            "OperatingSystem": "Windows",
-            "Type": "build/product/",
-            "Platform": "x64"
-          }
-        },
-        {
-          "Name": "Core-Setup-Signing-Windows-x86",
-          "ReportingParameters": {
-            "OperatingSystem": "Windows",
-            "Type": "build/product/",
-            "Platform": "x86"
           }
         },
         {
@@ -180,22 +157,6 @@
           "ReportingParameters": {
             "OperatingSystem": "Ubuntu 16.04",
             "Type": "build/product/"
-          }
-        },
-        {
-          "Name": "Core-Setup-Windows-arm32",
-          "ReportingParameters": {
-            "OperatingSystem": "Windows",
-            "Type": "build/product/",
-            "Platform": "arm"
-          }
-        },
-        {
-          "Name": "Core-Setup-Windows-arm64",
-          "ReportingParameters": {
-            "OperatingSystem": "Windows",
-            "Type": "build/product/",
-            "Platform": "arm64"
           }
         }
       ]
